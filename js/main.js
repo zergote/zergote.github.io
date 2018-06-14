@@ -39,7 +39,6 @@
 
     // Contact form validator
     $(function () {
-
         $('#contact-form').validator();
         $('#contact-form')[0].reset();
         return false;
