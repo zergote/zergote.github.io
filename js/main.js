@@ -38,20 +38,7 @@
     // /Portfolio subpage filters
 
     // Contact form validator
-    $(function () {
-
-        $('#contact-form').validator();
-
-        $('#contact-form').on('submit', function (e) {
-            if (!e.isDefaultPrevented()) {
-                var alertBox = '<div class="alert danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Por favor dele click al cuadro del reCAPTCHA.</div>';
-                $('#contact-form').find('.messages').html(alertBox);
-                $('#contact-form')[0].reset();
-            });
-                return false;
-            }
-        });
-    });
+ 
     // /Contact form validator
 
     // Text Rotator
