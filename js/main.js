@@ -38,7 +38,14 @@
     // /Portfolio subpage filters
 
     // Contact form validator
- 
+    $(function () {
+
+        $('#contact-form').validator();
+                $('#contact-form')[0].reset();
+                return false;
+            }
+        });
+    });
     // /Contact form validator
 
     // Text Rotator
