@@ -1,10 +1,804 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
+  
 <head>
-	<meta charset="UTF-8">
-	<title>Christian Yánez</title>
-</head>
-<body>
-	
-</body>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Christian Yánez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Christian Yánez Resume, CV" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/transition-animations.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+  </head>
+
+  <body>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div id="page" class="page">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide">
+        <div class="my-photo">
+          <img src="images/my_photo.png" alt="image">
+          <div class="mask"></div>
+        </div>
+
+        <div class="site-title-block">
+          <h1 class="site-title">Christian Yánez</h1>
+          <p class="site-description">Ingeniero de Software</p>
+        </div>
+
+        <!-- Navigation & Social buttons -->
+        <div class="site-nav">
+          <!-- Main menu -->
+          <ul id="nav" class="site-main-menu">
+            <!-- About Me Subpage link -->
+            <li>
+              <a class="pt-trigger" href="#home" data-animation="58" data-goto="1">Inicio</a><!-- href value = data-id without # of .pt-page. Data-goto is the number of section -->
+            </li>
+            <!-- /About Me Subpage link -->
+            <!-- About Me Subpage link -->
+            <li>
+              <a class="pt-trigger" href="#about_me" data-animation="59" data-goto="2">Sobre mí</a>
+            </li>
+            <!-- /About Me Subpage link -->
+            <li>
+              <a class="pt-trigger" href="#resume" data-animation="60" data-goto="3">Curriculum</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#portfolio" data-animation="61" data-goto="4">Portfolio</a>
+            </li>
+<!--
+            <li>
+              <a class="pt-trigger" href="#blog" data-animation="58" data-goto="5">Blog</a>
+            </li>
+-->
+            <li>
+              <a class="pt-trigger" href="#contact" data-animation="59" data-goto="6">Contactar</a>
+            </li>
+          </ul>
+          <!-- /Main menu -->
+
+          <!-- Social buttons -->
+          <ul class="social-links">
+            <li><a class="tip social-button" href="https://twitter.com/zergote" title="Twitter"><i class="fa fa-twitter"></i></a></li> <!-- Full list of social icons: http://fontawesome.io/icons/#brand -->
+            <li><a class="tip social-button" href="https://www.linkedin.com/in/zergote" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a class="tip social-button" href="https://github.com/zergote" title="GitHub"><i class="fa fa-github"></i></a></li>
+            <!--<li><a class="tip social-button" href="#" title="Youtube"><i class="fa fa-youtube"></i></a></li>-->
+            <!--<li><a class="tip social-button" href="#" title="last.fm"><i class="fa fa-lastfm"></i></a></li>-->
+            <!--<li><a class="tip social-button" href="#" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>-->
+          </ul>
+          <!-- /Social buttons -->
+        </div>
+        <!-- Navigation & Social buttons -->
+      </header>
+      <!-- /Header -->
+
+      <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+          <div class="mobile-site-title">Christian Yánez</div>
+        </div>
+
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Mobile Header -->
+
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper">
+          <!-- Subpages -->
+          <div class="subpages">
+
+            <!-- Home Subpage -->
+            <section class="pt-page pt-page-1 section-with-bg section-paddings-0" style="background-image: url(images/home_page_bg_2.jpg);" data-id="home">
+              <div class="home-page-block-bg">
+                <div class="mask"></div>
+              </div>
+              <div class="home-page-block">
+                <div class="v-align">
+                  <h2>Christian Yánez</h2>
+                  <div id="rotate" class="text-rotate">
+                    <div>
+                      <p class="home-page-description">Ingeniero de Software</p>
+                    </div>
+                    <div>
+                      <p class="home-page-description">Full Stack Javascript</p>
+                    </div>
+                  </div>
+
+                  <div class="block end" style="text-align: center">
+                    <ul class="info-list">
+                      <!--  <li><span class="title">Age</span><span class="value">29</span></li> -->
+                      <li><span class="title">País</span><span class="value">Venezuela</span></li>
+                      <li><span class="title">Ciudad</span><span class="value">Puerto La Cruz</span></li>
+                      <li><span class="title">e-mail</span><span class="value"><a href="mailto:xyges@hotmail.com">xyges@hotmail.com</a></span></li>
+                      <li><span class="title">Teléfono</span><span class="value">+58 0424 832 47 09</span></li>
+                      <li><span class="title">Freelance</span><span class="value available">Disponible</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End of Home Subpage -->
+
+            <!-- About Me Subpage -->
+            <section class="pt-page pt-page-2" data-id="about_me">
+              <div class="section-title-block">
+                <h2 class="section-title">Sobre mí</h2>
+                <h5 class="section-description">Inquieto, Pensador, Curioso</h5>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="general-info">
+                    <h3>Soy  desarrollador Front-end/Back-end</h3>
+                    <p>Si estuviera a mi alcance, aprendería todas las tecnologías, me gustaría poder jugar en el equipo en cualquier posición, sin embargo, sé que somos limitados en tiempo, por lo que delegar conocimientos a otras personas es inteligente.</p>
+                    <p>Actualmente domino el Stack Frontend y Backend para Javascript, me llevo muy bien con Java/C++ para aplicaciones de escritorio y de consola. Por último, actualmente he querido fortalecer mi Stack de tecnogias para el Backend por lo que he estado estudiando los lenguajes de programación Elixir y Go, y además para mejorar el desempeño de los resultados de las consultas a bases de datos NoSQL he estado seleccionado Redis y Elasticsearch. Espero poder llevar estas habilidades a buen nivel, para ponerlas en practica en trabajos de producción pronto.</p>
+                    <p>Saludos, y continúa viendo el resto de mi web.</p>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="block-title">
+                    <h3>Testimonios</h3>
+                  </div>
+                  <div class="testimonials owl-carousel">
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-item">
+                      <!-- Testimonial Content -->
+                      <div class="testimonial-content">
+                        <div class="testimonial-text">
+                          <p>"Es una persona brillante, lo único que le falta es cuido (Risas). Es alguien a tener en cuenta cuando necesitas elegir la tecnolgía para un proyecto nuevo, realmente sorprende como hace para enterado sobre muchos temas."</p>
+                        </div>
+                      </div>            
+                      <!-- /Testimonial Content -->  
+                      <!-- Testimonial Author -->
+                      <div class="testimonial-credits">
+                        <!-- Picture -->
+                        <div class="testimonial-picture">
+                          <img src="images/testimonials/testimonila_photo_2.png" alt="">
+                        </div>              
+                        <!-- /Picture -->
+                        <!-- Testimonial author information -->
+                        <div class="testimonial-author-info">
+                          <p class="testimonial-author">Andrés González</p>
+                          <p class="testimonial-firm">Coord. Optimizacion - Digitel C.A.</p>
+                        </div>
+                      </div>
+                      <!-- /Testimonial author information -->               
+                    </div>
+                    <!-- End of Testimonial 2 -->
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-item" style="width:100%">
+                      <!-- Testimonial Content -->
+                      <div class="testimonial-content">
+                        <div class="testimonial-text">
+                          <p>"Cuando necesito formar un equipo de trabajo siempre insisto de tomarlo en cuenta porque siempre es una gran ayuda al momento de ofrecer soluciones a casos de difíciles."</p>
+                        </div>
+                      </div>            
+                      <!-- /Testimonial Content -->  
+                      <!-- Testimonial Author -->
+                      <div class="testimonial-credits">
+                        <!-- Picture -->
+                        <div class="testimonial-picture">
+                          <img src="images/testimonials/testimonial_photo_1.png" alt="">
+                        </div>              
+                        <!-- /Picture -->
+                        <!-- Testimonial author information -->
+                        <div class="testimonial-author-info">
+                          <p class="testimonial-author">Oscar Córcega</p>
+                          <p class="testimonial-firm">CEO - CiberMax C.A.</p>
+                        </div>
+                      </div>
+                      <!-- /Testimonial author information -->               
+                    </div>
+                    <!-- End of Testimonial 2 -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- Services block -->
+              <div class="block-title">
+                <h3>Servicios</h3>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/web_design.png" alt="Responsive Design">
+                      <h4>Ingenería de Software</h4>
+                      <p>Creatividad e ideas, no lo es todo, también son necesarias las técnicas, metodologías y conocimientos del área tecnológico. Crearemos un modelo, seleccionaremos una arquitectura e invitaremos a otros a formar parte del de la construcción de tu producto.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/copywrite.png" alt="Copywriter">
+                      <h4>Programación</h4>
+                      <p>Si ya tienes lista la fase de Ingeniería, aquí tienes a un programador que tiene buenas prácticas, y que adicional puede ofrecer aportes en el caso de que un asunto desde el punto de vista técnico necesite mejorar. Tengo aprendido varios lenguajes, pero siempre estoy abierto a aprender otros si me dejan beneficios cognitivo.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/ecommerce.png" alt="E-Commerce">
+                      <h4>UI/UX</h4>
+                      <p>Ofrecer una interfaz grafica agradable y una buena experiencia de usuario es vital para ti. Me gusta jugar a diseñador, no soy un profesional aún, pero seguro que te puedo sorprender con algunos de mis trabajos. Figma, Sketch 3 y Adobe Photoshop/Illustrator son algunos términos de productos que me suenan mucho.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/management.png" alt="Management">
+                      <h4>Visualización de datos</h4>
+                      <p>Los datos son importantes, pero es difícil interpretarlos en formato texto. Transformando tus datos a una representación grafica y vistosa, podrás digerirlos fácilmente e igualmente inferir sobre lo que esta ocurriendo en tu planta. Un Dashboard con las secciones apropiadas puede ayudarte a mantenerte informado y al día.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Services block -->
+
+              <!-- Clients block -->
+              <div class="block-title">
+                <h3>Clientes</h3>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="http://www.digitel.com.ve/" target="_blank"><img src="images/clients/digitel.png" alt="Digitel"></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="http://www.fundacionanzoateguiesciclismo.com/" target="_blank"><img src="images/clients/anzoateguiesciclismo.png" alt="Fundación Anzoátegui Es Ciclismo"></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="http://tufarmaciasanjose.com/" target="_blank"><img src="images/clients/fsanjose.png" alt="Farmacia San José"></a>
+                  </div>
+                </div>
+<!--
+
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="#" target="_blank"><img src="images/clients/client_4.png" alt="image"></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="#" target="_blank"><img src="images/clients/client_5.png" alt="image"></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="#" target="_blank"><img src="images/clients/client_6.png" alt="image"></a>
+                  </div>
+                </div>
+            -->
+              </div>
+              <!-- End of Clients block -->
+
+<!--
+              <!-- Fun facts block -->
+              <div class="block-title">
+                <h3>Datos Curiosos</h3>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="fun-fact-block gray-bg"> 
+                    <i class="pe-7s-icon pe-7s-smile"></i>
+                    <h4>Clientes Satifechos</h4>
+                    <span class="fun-value">8</span>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="fun-fact-block"> 
+                    <i class="pe-7s-icon pe-7s-alarm"></i>
+                    <h4>Horas trabajadas</h4>
+                    <span class="fun-value">3,157</span>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="fun-fact-block gray-bg"> 
+                    <i class="pe-7s-icon pe-7s-medal"></i>
+                    <h4>Premios Obtenidos</h4>
+                    <span class="fun-value">2</span>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="fun-fact-block"> 
+                    <i class="pe-7s-icon pe-7s-coffee"></i>
+                    <h4>Bebidas Consumidas</h4>
+                    <span class="fun-value">239</span>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Fun fucts block -->
+            </section>
+            <!-- End of About Me Subpage -->
+
+            <!-- Resume Subpage -->
+            <section class="pt-page pt-page-3" data-id="resume">
+              <div class="section-title-block">
+                <h2 class="section-title">Curriculum</h2>
+                <h5 class="section-description">7 Años de Experiencia</h5>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-4 subpage-block">
+                  <div class="block-title">
+                    <h3>Educación</h3>
+                  </div>
+                  <div class="timeline">
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2018</h5>
+                      <h4 class="event-name">Ingeniería en Computación</h4>
+                      <span class="event-description">Universidad de Oriente</span>
+                      <p>El Ingeniero en Computación es un profesional que se ocupa de la naturaleza, características , estructura, clasificación, almacenamiento y recuperación de la información, así como los diversos procesos a los que puede someterse en forma automatizada. Se interesa igualmente por las propiedades de las máquinas físicas que realizan estas operaciones para producir sistemas de procesamiento de datos eficientes; trata todo lo relacionado con la utilización de computadoras digitales.Es un profesional preparado en las áreas correspondientes a estructuras y sistemas de computación, investigación operativa y modelos matemáticos.</p>
+                    </div>
+ <!--
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2004</h5>
+                      <h4 class="event-name">Specialization Course</h4>
+                      <span class="event-description">University of Studies</span>
+                      <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                    </div>
+
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2008</h5>
+                      <h4 class="event-name">Specialization Course</h4>
+                      <span class="event-description">University of Studies</span>
+                      <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                    </div>
+-->
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 subpage-block">
+                  <div class="block-title">
+                    <h3>Experiencia</h3>
+                  </div>
+                  <div class="timeline">
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">Abril 2017 - Mayo 2018 </h5>
+                      <h4 class="event-name">Ingeniero de Software / Programador</h4>
+                      <span class="event-description">Digitel C.A.</span>
+                      <p>Aplicación Web para la gestión de indicadores claves de desempeño de la red móvil.</p>
+                      <p>Stack: Javascript, Node.js, React.js, Redux, Redux Sagas, PostgreSQL, Oracle DB, Nginx.</p>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">Noviembre 2016 - Marzo 2017 </h5>
+                      <h4 class="event-name">Desarrollador de Software</h4>
+                      <span class="event-description">Novedades de Todo S.R.L.</span>
+                      <p>Aplicación TPV para un local comercial tipo quincalla.</p>
+                      <p>Stack: C++, Qt, PostgreSQL.</p>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">Enero 2010 - Junio 2012</h5>
+                      <h4 class="event-name">Programador Web</h4>
+                      <span class="event-description">Fundación Anzoátegui Es Ciclismo</span>
+                      <p>Diseñador y programador del sitio web de la fundación. Diseñador del tema para el CMS Wordpress</p>
+                      <p>Stack: Wordpress, HTML, CSS, PHP, MySQL.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 subpage-block">
+                  <div class="block-title">
+                    <h3>Lenguajes de programación</h3>
+                  </div>
+                  <div class="skills-info">
+                    <h4>Javascript</h4>                               
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-1"></div>
+                    </div>
+
+                    <h4>C/C++</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-2"></div>
+                    </div>
+
+                    <h4>Java</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-3"></div>
+                    </div> 
+
+                    <h4>C#</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-3"></div>
+                    </div> 
+                  </div>
+
+                  <div class="block-title">
+                    <h3>Tecnologías</h3>
+                  </div>
+                  <div class="skills-info">
+                    <h4>React.js</h4>                               
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-1"></div>
+                    </div>
+
+                    <h4>Redux</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-5"></div>
+                    </div>
+
+                    <h4>Node.js</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-6"></div>
+                    </div>
+
+                    <h4>Express.js</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-7"></div>
+                    </div>
+
+                    <h4>DBs SQL/NoSQL</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-8"></div>
+                    </div>
+
+                    <h4>Qt</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-7"></div>
+                    </div>
+
+                  </div>
+
+                   <div class="block-title">
+                    <h3>Otros</h3>
+                  </div>
+                  <div class="skills-info">
+                    <h4>HTML</h4>                               
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-4"></div>
+                    </div>
+
+                    <h4>CSS</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-5"></div>
+                    </div>
+
+                    <h4>Docker/Docker Compose</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-6"></div>
+                    </div>
+
+                    <h4>Highcharts.js</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-7"></div>
+                    </div>
+
+                    <h4>WebSockets</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-8"></div>
+                    </div>
+
+                    <h4>Git/Git-Flow</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-7"></div>
+                    </div>
+
+                    <h4>API REST</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-2"></div>
+                    </div> 
+
+                    <h4>Domain-driven design (DDD)</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-2"></div>
+                    </div> 
+
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-md-12">
+                  <div class="download-cv-block">
+                    <a class="button" target="_blank" href="docs/CV_Christian_Yanez.pdf">Descarga CV Pdf</a>
+                    <a class="button" target="_blank" href="docs/CV_Christian_Yanez.txt">Descarga CV Txt</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End Resume Subpage -->
+
+
+            <!-- Portfolio Subpage -->
+            <section class="pt-page pt-page-4" data-id="portfolio">
+              <div class="section-title-block">
+                <h2 class="section-title">Portfolio</h2>
+                <h5 class="section-description">Mis Mejores Trabajos</h5>
+              </div>
+
+              <!-- Portfolio Content -->
+              <div class="portfolio-content">
+                            
+                <!-- Portfolio filter -->
+                <ul id="portfolio_filters" class="portfolio-filters">
+                  <li class="active">
+                    <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="programación">Programación</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="diseño">Diseño</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="video">Vídeo</a>
+                  </li>                  
+                </ul>
+                <!-- End of Portfolio filter -->
+
+                <!-- Portfolio Grid -->
+                <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
+
+                  <!-- Portfolio Item 1 -->
+                  <figure class="item" data-groups='["all", "programación"]'>
+                  	<a href="images/portfolio/dipcharts.png" class="lightbox" title="Digitel Performance Charts - Backend (NodeJS, ExpressJS, PostgreSQL, Nginx) Frontend (ReactJS, Redux, Redux Sagas, Highcharts)">
+                      <img src="images/portfolio/dipcharts.png" alt="">
+                      <div>
+                        <h5 class="name">Digitel Performance Charts - Digitel C.A.</h5>
+                        <small>Programación</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 1 -->
+
+                  <!-- Portfolio Item 2 -->
+                  <figure class="item" data-groups='["all", "programación", "video"]'>
+                    <a href="https://drive.google.com/file/d/1A96_CUSPoxUnyUqp1AFHOj-KBJJX9vpH/preview" title="DIPCHARTS - Vídeo de demostración - (NodeJS, ExpressJS, PostgreSQL, Nginx, ReactJS, Redux, Redux Sagas, Highcharts)" class="lightbox mfp-iframe">
+                      <img src="images/portfolio/dipcharts_video.png" alt="">
+                      <div>
+                        <h5 class="name">Digitel Performance Charts - Digitel C.A - Vídeo</h5>
+                        <small>Programación</small>
+                        <i class="fa fa-video-camera"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 2 -->
+
+                  <!-- Portfolio Item 3 -->
+                  <figure class="item" data-groups='["all","diseño"]'>
+                    <a href="images/portfolio/FrameFirstViewLight.png" class="lightbox" title="Dashboard Vista Principal - Tema Claro - Hecho con Figma">
+                      <img src="images/portfolio/FrameFirstViewLight.png" alt="">
+                      <div>
+                        <h5 class="name">Interfaz Gráfica De Dashboard - Tema Claro</h5>
+                        <small>Diseño</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 3 -->
+
+                  <!-- Portfolio Item 4 -->
+                  <figure class="item" data-groups='["all", "diseño"]'>
+                    <a href="images/portfolio/FrameFirstViewDark.png" class="lightbox" title="Dashboard - Vista Principal - Tema Oscuro - Hecho con Figma">
+                      <img src="images/portfolio/FrameFirstViewDark.png" alt="">
+                      <div>
+                        <h5 class="name">Interfaz Gráfica De Dashboard - Tema Oscuro</h5>
+                        <small>Diseño</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 4 -->
+
+                  <!-- Portfolio Item 5 -->
+                  <figure class="item" data-groups='["all", "diseño"]'>
+                    <a href="images/portfolio/FrameDropMenuLight.png" class="lightbox" title="Menús - Tema Claro - Hecho con Figma">
+                      <img src="images/portfolio/FrameDropMenuLight.png" alt="">
+                      <div>
+                        <h5 class="name">Menús - Tema Claro</h5>
+                        <small>Diseño</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 5 -->
+
+                  <!-- Portfolio Item 6 -->
+                  <figure class="item" data-groups='["all", "diseño"]'>
+                    <a href="images/portfolio/FrameDropMenuDark.png" class="lightbox" title="Menús - Tema Oscuro - Hecho con Figma">
+                      <img src="images/portfolio/FrameDropMenuDark.png" alt="">
+                      <div>
+                        <h5 class="name">Menús - Tema Oscuro</h5>
+                        <small>Diseño</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 6 -->
+
+                  <!-- Portfolio Item 7 -->
+                  <figure class="item" data-groups='["all", "diseño"]'>
+                    <a href="images/portfolio/AddData.png" class="lightbox" title="Diseño de la interfaz para modificación de gráfica en modal - Hecho con Figma">
+                      <img src="images/portfolio/AddData.png" alt="">
+                      <div>
+                        <h5 class="name">Diseño de la interfaz para modificación de gráfica en modal</h5>
+                        <small>Diseño</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 7 -->
+
+                  <!-- Portfolio Item 8 -->
+                  <figure class="item" data-groups='["all", "diseño"]'>
+                    <a href="images/portfolio/FrameNewsAdminPublics.png" class="lightbox" title="Diseño de la interfaz gráfica para el buzon de noticias - Hecho con Figma">
+                      <img src="images/portfolio/FrameNewsAdminPublics.png" alt="">
+                      <div>
+                        <h5 class="name">Diseño de la interfaz gráfica para el buzon de noticias</h5>
+                        <small>Diseño</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 8 -->
+                </div>
+                <!-- /Portfolio Grid -->
+
+              </div>
+              <!-- /Portfolio Content -->
+
+            </section>
+            <!-- /Portfolio Subpage -->
+
+            <!-- Blog Subpage -->
+            <section class="pt-page pt-page-5" data-id="blog">
+             
+            </section>
+            <!-- End Blog Subpage -->
+
+            <!-- Contact Subpage -->
+            <section class="pt-page pt-page-6" data-id="contact">
+              <div class="section-title-block">
+                <h2 class="section-title">Contactar</h2>
+                <h5 class="section-description"> Para estar contact0</h5>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="block-title">
+                    <h3>Para contactarme </h3>
+                  </div>
+                  <p>Para contactarme puedes hacerlo a través de los siguientes datos, o dejame un mensaje en el formulario de contacto, te responderé a la brevedad posible.</p>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-map-marker"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5>Puerto La Cruz, Venezuela</h5>
+                    </div>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-mail"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5>xyges@hotmail.com</h5>
+                    </div>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-call"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5>+58 0424 832 47 09</h5>
+                    </div>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-check"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5>Dispobible como Freelance</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="block-title">
+                    <h3>Formulario de Contacto</h3>
+                  </div>
+                  <form id="contact-form" method="post" action="http://lmpixels.com/demo/sunshine-demo/sunshine-version-2/sunshine-html-template/contact_form/contact_form.php">
+
+                    <div class="messages"></div>
+
+                    <div class="controls">
+                      <div class="form-group">
+                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Nombre completo" required="required" data-error="El nombre es requerido.">
+                          <div class="form-control-border"></div>
+                          <i class="form-control-icon fa fa-user"></i>
+                          <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Dirección de Email" required="required" data-error="Se requiere un email correcto.">
+                          <div class="form-control-border"></div>
+                          <i class="form-control-icon fa fa-envelope"></i>
+                          <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                          <textarea id="form_message" name="message" class="form-control" placeholder="Escriba su mensaje" rows="4" required="required" data-error="Por favor, escriba su mensaje."></textarea>
+                          <div class="form-control-border"></div>
+                          <i class="form-control-icon fa fa-comment"></i>
+                          <div class="help-block with-errors"></div>
+                      </div>
+                      
+                      <div class="g-recaptcha" data-sitekey="6Le04F4UAAAAAKMJFKnFOi8Jy94n1rQZlRfr57-c" data-callback="correctCaptcha"></div>
+
+                      <input type="submit" class="button btn-send" value="Enviar mensaje">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </section>
+            <!-- End Contact Subpage -->
+
+          </div>
+        </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/page-transition.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
