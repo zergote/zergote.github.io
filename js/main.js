@@ -41,10 +41,8 @@
     $(function () {
 
         $('#contact-form').validator();
-                $('#contact-form')[0].reset();
-                return false;
-            }
-        });
+        $('#contact-form')[0].reset();
+        return false;
     });
     // /Contact form validator
 
