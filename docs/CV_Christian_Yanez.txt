@@ -1,0 +1,263 @@
+﻿Christian Yánez García
+======================
+
+I currently master the Frontend and Backend stack for Javascript, which
+allows me to create Web Applications, I get along very well with
+Java/C++/Python for desktop and console applications. Currently learning
+Elixir, Go, Redis and Elasticsearch.
+
+
+Education
+---------
+
+-  2000-2005 High School (U.E. Santiago Mariño)
+
+-  2010-2017 Bachelor of Science (BSc) Computer Engineering (Universidad
+   de Oriente)
+
+
+Work Experience
+---------------
+
+-  2006 - 2008 Network and support technician (SENIFA Central)
+
+-  2008 - 2011 Valery Administrative Technical Support (San José
+   Pharmacy C.A.)
+
+-  2010 - 2010 Web Developer (Foundation Anzoátegui es Ciclismo)
+
+-  2017 - 2017 POS Application Programmer (Novedades De Todo S.R.L)
+
+-  2017 - 2018 Software Engineer - Programmer (Digitel Corporation C.A.)
+
+
+Other experiences and certificates
+----------------------------------
+
+-  2016 Advanced Linux: The Linux Kernel (Linkedin Learning)
+
+-  2016 Data Visualization for Data Analysts (LinkedIn Learning)
+
+-  2016 Mastering Express Web Application Development (LinkedIn
+   Learning)
+
+-  2016 Ethical Hacking: Denial of Service (LinkedIn Learning)
+
+
+Skills
+------
+
+Communication Languages
+~~~~~~~~~~~~~~~~~~~~~~~
+
+-  Spanish (Mother tongue)
+
+-  English (Intermediate Level - A2 - B1)
+
+
+Programming Languages
+~~~~~~~~~~~~~~~~~~~~~
+
+-  Javascript (Expert)
+
+-  Java (Expert)
+
+-  C/C++ (Expert)
+
+-  Assembly (Competent)
+
+-  C# (Competent)
+
+-  Python (Competent)
+
+-  Go (Apprentice)
+
+-  Elixir (Apprentice)
+
+-  Rust (Apprentice)
+
+
+Frameworks
+~~~~~~~~~~
+
+-  Qt (Expert)
+
+-  Express.js (Competent)
+
+-  CSS Framework
+
+   -  Booststrap
+
+   -  Bulma
+
+
+Libraries/APIs/Environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  React (and ecosystem) (Expert)
+
+   -  Redux
+
+   -  Redux-Saga
+
+   -  React Router
+
+   -  and others
+
+-  Highcharts.js (Expert)
+
+-  Amcharts.js (Expert)
+
+-  Socket.io (Competent)
+
+-  Synaptic.js (Expert)
+
+-  Lodash.js (Competent)
+
+-  Sass (Competent)
+
+-  Stylus (Expert)
+
+-  Node.js (and ecosystem) (Competent)
+
+   -  Objection.js
+
+   -  Knex.js
+
+   -  Driver for DBs
+
+   -  Tasks managers
+
+   -  and others
+
+-  Nginx (Competent)
+
+-  Apache (Competent)
+
+-  HTTP/HTTPS and APIs
+
+
+Platforms/Enviroment
+~~~~~~~~~~~~~~~~~~~~
+
+-  Linux (Expert)
+
+-  Windows (Expert)
+
+-  macOS (Expert)
+
+
+Storage
+~~~~~~~
+
+-  PostqreSQL (Expert)
+
+-  MySQL (Expert)
+
+-  Oracle DB (Expert)
+
+-  Microsoft SQL Server (Competent)
+
+-  SQLite (Expert)
+
+-  MongoDB (Competent)
+
+-  Rethinkdb (Competent)
+
+
+Tools
+~~~~~
+
+-  Git (Competent)
+
+-  Git Flow (Competent)
+
+-  Visual Studio Code (Expert)
+
+-  Qt Creator (Expert)
+
+-  Visual Studio IDE
+
+-  IntelliJ IDEA (Expert)
+
+-  PyCharm (Expert)
+
+-  Vim (Competent)
+
+-  Sublime Text (Expert)
+
+-  Gitkraken
+
+-  Terminal (Expert)
+
+-  Docker (Competent)
+
+-  Docker Compose (Competent)
+
+-  SSH (Competent)
+
+-  Flow.js (Competent)
+
+-  Webpack.js (Expert)
+
+-  NPM/Yarn (Expert)
+
+-  ESLint (Competent)
+
+-  AWS (Competent)
+
+-  DigitalOcean (Competent)
+
+
+Paradigms
+~~~~~~~~~
+
+-  Concurrent Programming
+
+-  Functional Programming
+
+-  Test-driven Development (TDD)
+
+-  Model View Controller (MVC)
+
+-  Model View Presenter (MVP)
+
+-  Domain-driven design (DDD)
+
+-  Onion Architecture
+
+-  BEM
+
+
+Interests
+~~~~~~~~~
+
+-  Machine Learning
+
+-  Web design
+
+-  Front-end development
+
+-  App development (Android)
+
+-  Personal projects
+
+
+Personal Information
+--------------------
+
+-  Born: 13.03.1987
+
+-  Address: Puerto La Cruz - Venezuela
+
+
+Contact
+-------
+
+-  Web: https://christianyanez.me
+
+-  E-mail: xyges@hotmail.com
+
+-  Twitter: @zergote
+
+-  Phone Number:+58 04248324709
