@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: christianyanez.me
+Token: c556d13707faaaacba29dd6548029ab37fb3af679eb7f65252fe6b904dc634d6
